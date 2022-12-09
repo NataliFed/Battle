@@ -1,6 +1,6 @@
 import React from "react";
 import SelectedLanguges from "./SelectedLanguages";
-import { fetchPopularRepos } from "../api";
+import { fetchPopularRepos } from "../../api";
 import RepoGrid from "./RepoGrid";
 
 export class Popular extends React.Component {
